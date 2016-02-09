@@ -10,3 +10,8 @@ qi_create_bin(awesomeapp
   ${SRCS}
 )
 
+qi_use_lib(awesomeapp
+  libfoo
+  libbar
+)
+
