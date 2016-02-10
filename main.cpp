@@ -1,10 +1,11 @@
-#include <libfoo/libfoo.hpp>
-#include <libbar/libbar.hpp>
+#include "mainwindow.hpp"
 
-#include <iostream>
+#include <QApplication>
 
 int main(int argc, char* argv[])
 {
-  std::cout << hello() << ", " << world() << "!" << std::endl;
-  return 0;
+  QApplication app(argc, argv);
+  MainWindow window;
+  window.show();
+  return app.exec();
 }
