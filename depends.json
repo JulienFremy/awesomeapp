@@ -1,0 +1,11 @@
+{
+  "depends":
+  [
+    {
+      "id": "libfoo"
+    },
+    {
+      "id": "libbar"
+    }
+  ]
+}
