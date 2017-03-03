@@ -39,6 +39,8 @@ target_link_libraries(awesomeapp
   ${LibBar_LIBRARIES}
 )
 
+install(TARGETS awesomeapp DESTINATION ${CMAKE_INSTALL_PREFIX})
+
 #myscript_link_libraries(awesomeapp
 #  DEPENDS
 #    libfoo
